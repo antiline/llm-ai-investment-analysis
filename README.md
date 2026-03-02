@@ -24,8 +24,8 @@ cp .env.example .env
 # .env 파일을 열어서 OPENAI_API_KEY 값을 입력하세요
 
 # 5. 예제 실행
-uv run scripts/runner.py --list          # 전체 예제 목록
-uv run scripts/runner.py 3.2.7           # 특정 예제 실행
+uv run scripts/runner.py --list                       # 전체 예제 목록
+uv run scripts/runner.py 3.2.7_environment_variables  # 특정 예제 실행
 ```
 
 > **요구사항**: Python 3.11+, [OpenAI API 키](https://platform.openai.com/api-keys)
@@ -37,8 +37,8 @@ uv run scripts/runner.py 3.2.7           # 특정 예제 실행
 ### 러너로 실행
 
 ```bash
-uv run scripts/runner.py --list          # 예제 목록
-uv run scripts/runner.py 3.2.7           # 특정 예제
+uv run scripts/runner.py --list                       # 예제 목록
+uv run scripts/runner.py 3.2.7_environment_variables  # 특정 예제
 ```
 
 ### 직접 실행
